@@ -26,7 +26,7 @@ export default function Main() {
 
     setTotalExpense(expense);
     setTotalIncome(income);
-  }, [allTransactions]);
+  }, [allTransactions, setTotalExpense, setTotalIncome]);
 
   return (
     <Flex textAlign={"center"} flexDirection={"column"} pr={"5"} pl={"5"}>
